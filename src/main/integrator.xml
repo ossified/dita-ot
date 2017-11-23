@@ -28,6 +28,7 @@
   <path id="dost.class.path">
     <pathelement location="${dita.dir}/lib/dost.jar"/>
     <pathelement location="${dita.dir}/lib/dost-configuration.jar"/>
+    <pathelement location="${dita.dir}/lib/commons-io.jar"/>
   </path>
   
   <taskdef name="integrate" classname="org.dita.dost.platform.IntegratorTask">
@@ -45,6 +46,7 @@
     <jar destfile="${basedir}/lib/dost-configuration.jar">
       <fileset dir="${basedir}/resources">
         <include name="messages.xml"/>
+        <include name="plugins.xml"/>
       </fileset>
       <fileset dir="${basedir}/lib">
         <include name="configuration.properties"/>

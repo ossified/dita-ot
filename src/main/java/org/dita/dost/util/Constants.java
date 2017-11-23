@@ -56,6 +56,8 @@ public final class Constants {
     /**.pdf extension.*/
     public static final String FILE_EXTENSION_PDF = ".pdf";
 
+    public static final String RESOURCES_DIR = "resources";
+
     public static final DitaClass ABBREV_D_ABBREVIATED_FORM = new DitaClass("+ topic/term abbrev-d/abbreviated-form ");
     public static final DitaClass BOOKMAP_ABBREVLIST = new DitaClass("- map/topicref bookmap/abbrevlist ");
     public static final DitaClass BOOKMAP_AMENDMENTS = new DitaClass("- map/topicref bookmap/amendments ");
@@ -596,6 +598,7 @@ public final class Constants {
     /**action element.*/
     public static final String ELEMENT_NAME_DITA = "dita";
 
+    public static final String ATTRIBUTE_NAME_ALIGN = "align";
     /**conref attribute.*/
     public static final String ATTRIBUTE_NAME_CONREF = "conref";
     /**href attribute.*/
@@ -678,6 +681,7 @@ public final class Constants {
     public static final String ATTRIBUTE_NAME_TOC = "toc";
     /**print attribute.*/
     public static final String ATTRIBUTE_NAME_PRINT = "print";
+    public static final String ATTRIBUTE_NAME_DELIVERYTARGET = "deliveryTarget";
     /**cascade attribute.*/
     public static final String ATTRIBUTE_NAME_CASCADE = "cascade";
     public static final String ATTRIBUTE_NAME_COLS = "cols";
